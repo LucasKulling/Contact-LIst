@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta charset = "utf-8"/>
+        <title>Agenda de contactos</title>
+       <link rel="stylesheet" href="./Agenda.css">
+       <!-- links de iconos -->
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+        <h1 id="title">AGENDA DE CONTACTOS</h1>
+        <div class="inputs">
+        <input type="text" placeholder="Nombre" class="input nombre"></input>
+        <input type="number" placeholder="Numero" class="input numero"></input>
+        <input type="text" placeholder="Dirección" class="input direccion" ></input>
+        </div>
+        <button id="boton-agregar">AGREGAR CONTACTO</button>
+        <!-- CONTACTOS -->
+        <div class="contactos">
+            <div class="contacto">
+                <h3 id="nombre-contacto">nombre</h3>
+                <p>numero</p>
+                <p>direccion</p>
+                <span id="borrar-contacto" class="material-symbols-outlined">
+                    delete
+                    </span>
+            </div>
+
+        </div>
+        
+        
+        
+        
+        
+    <script src="./Agenda.js"></script> 
+    <script src="./agendaFunciones.js"></script> 
+    </body>
+</html>

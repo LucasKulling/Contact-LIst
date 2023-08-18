@@ -1,0 +1,85 @@
+html{
+    background-color: #F1FAEE;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: #457B9D;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input::placeholder{
+color: white;
+}
+.input{
+    color:white;
+    background-color: transparent;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 80%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: larger;
+    outline: 0;
+}
+input:active{
+    border-bottom: 2px solid #1D3557;
+}
+input:focus{
+    border-bottom: 2px solid #A8DADC;
+}
+
+#boton-agregar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+    width: 75%;
+    height: 55px;
+    background-color: #A8DADC;
+    border-radius: 5px;
+}
+#boton-agregar:hover{
+    background-color: #457B9D;
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    background-color: #A8DADC;
+    margin-top: 25px;
+    border: 2px solid black; 
+}
+#nombre-contacto{
+    margin-left: 30px
+}
+#borrar-contacto{
+    margin-right: 30px;
+    color: tomato;
+    cursor: pointer;
+}
